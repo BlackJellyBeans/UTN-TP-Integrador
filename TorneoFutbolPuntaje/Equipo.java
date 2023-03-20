@@ -1,25 +1,33 @@
 public class Equipo {
-
+	
+		//Atributos
+	
         private String nombre;
 
         private String descripcion;
+        
+        //Contructor
+        
+        public Equipo(String nombre, String descripcion) {
+            this.nombre = nombre;
+            this.descripcion = descripcion;
 
-        public Equipo(String nombre1, String descripcion1) {
-            this.nombre = nombre1;
-            this.descripcion = descripcion1;
-
+        //Setters
+            
         }
         public String setNombre(String nombre) {
-            return this.nombre = nombre;
-        }
-        public String getNombre() {
-            return this.nombre;
+            this.nombre = nombre;
         }
         public String setDescripcion() { 
             return descripcion;
-    }
+        }
+        
+        //Getters
+        
+        public String getNombre() {
+            this.nombre;
+        }
         public void getDescripcion(String descripcion) {
             this.descripcion = descripcion;
-        }
-
-        }
+        } 
+}
